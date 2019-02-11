@@ -1,0 +1,15 @@
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\ConnectToAzureStorage.exe.config
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\ConnectToAzureStorage.exe
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\ConnectToAzureStorage.pdb
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\obj\Debug\ConnectToAzureStorage.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\obj\Debug\ConnectToAzureStorage.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\obj\Debug\ConnectToAzureStorage.csproj.CopyComplete
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\obj\Debug\ConnectToAzureStorage.exe
+C:\Users\Developer\Desktop\AZ200.2\ConnectingToAzureStorage\ConnectToAzureStorage\obj\Debug\ConnectToAzureStorage.pdb

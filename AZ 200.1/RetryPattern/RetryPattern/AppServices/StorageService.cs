@@ -18,7 +18,7 @@ namespace RetryPattern.AppServices
 
         public StorageService()
         {
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=az200t1storage;AccountKey=57/YGAibE1ZQcq/PpihsfTA8Cv8eSb8+/CK6tnNmbAsPW0EtOBTcNFezbN2kY+g36917fz5NDPBnqOnPS+Inxw==;EndpointSuffix=core.windows.net";
+            var connectionString = "DefaultEndpointsProtocol=https;AccountName=az200store;AccountKey=J0x5HYdPqBrOcwb7/HYMpnni9tGRHkReGGNMP//UEY2dl/NCxTH6/9Nq0ZCmccdtIOhqhnsI0MP29gJiIiC0oA==;EndpointSuffix=core.windows.net";
             _storageAccount = CloudStorageAccount.Parse(connectionString);
         }
 
@@ -28,7 +28,7 @@ namespace RetryPattern.AppServices
             {
                 //Create a blob client to talk to
                 CloudBlobClient blobClient = CreateBlobClient();
-
+               
                 //Look for a blob container where blobs lives.
                 CloudBlobContainer newContainer = blobClient.GetContainerReference("newcontainer");
                  newContainer.CreateIfNotExists();
@@ -40,9 +40,9 @@ namespace RetryPattern.AppServices
                 }
                 return  myNewBlob.DownloadText();
             }
-            catch (Exception e)
+            catch (StorageException e)
             {
-                return "No Connection!";
+                return e.RequestInformation.HttpStatusCode + e.RequestInformation.HttpStatusMessage+ "No Connection! " +e.Message;
             }
         }
 
@@ -59,7 +59,7 @@ namespace RetryPattern.AppServices
                 LocationMode = LocationMode.PrimaryThenSecondary,
                 MaximumExecutionTime = TimeSpan.FromSeconds(20)
             };
-
+           
             return client;
         }
     }

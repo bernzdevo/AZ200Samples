@@ -32,6 +32,7 @@ namespace RetryPattern
 
         public string CheckConnection()
         {
+           tblkResult.Text = "";
             string result =  storageService.ReadWriteToStorage();
             Console.WriteLine(result);
             return result;
@@ -39,7 +40,7 @@ namespace RetryPattern
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CheckConnection();
+            tblkResult.Text= CheckConnection();
         }
     }
 }

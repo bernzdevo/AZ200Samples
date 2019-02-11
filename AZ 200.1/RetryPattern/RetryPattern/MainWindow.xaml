@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lblResult" Content="Label" HorizontalAlignment="Left" Margin="157,10,0,0" VerticalAlignment="Top" Height="35" Width="625"/>
         <Button Content="Retry" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click" Height="35"/>
+        <TextBlock x:Name="tblkResult" HorizontalAlignment="Left" Margin="157,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="74" Width="609"/>
 
     </Grid>
 </Window>
